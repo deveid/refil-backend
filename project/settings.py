@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'refill',                      
-        'USER': 'refill_admin',
-        'PASSWORD': 'refill123',
-        'HOST': '127.0.0.1',
+        'NAME': 'd3ofqrl9mlhmm8',                      
+        'USER': 'uhvydylsecfkns',
+        'PASSWORD': 'b433601549e6c1f2f4a6caf5d70525228896aa25735f4f2df7c65f8fd98f0a82',
+        'HOST': 'ec2-52-207-93-32.compute-1.amazonaws.com',
         'PORT': '5432',    
         }
 }
