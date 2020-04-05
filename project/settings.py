@@ -25,7 +25,7 @@ SECRET_KEY = '*!=2x56-f568+v=493u-+k_&td_*#gf(acetir-#j%^la$9^&y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fa607cbd.ngrok.io','127.0.0.1']
+ALLOWED_HOSTS = ['refill-api.herokuapp.com','127.0.0.1']
 
 
 # Application definition
