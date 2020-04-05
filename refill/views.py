@@ -17,7 +17,7 @@ from rest_framework import generics
 
 
 TWILIO_ACCOUNT_SID='ACdf698e09be21a25593f78c94974882cf'
-TWILIO_AUTH_TOKEN='737054aff4d9989d50a792d0f0b8cbe3'
+TWILIO_AUTH_TOKEN='61ab3aaf6fba1859afbc34497e13ceb2'
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 twilio_phone="+12064586641"
 

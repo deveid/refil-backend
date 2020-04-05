@@ -128,8 +128,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-TWILIO_ACCOUNT_SID='ACdf698e09be21a25593f78c94974882cf'
-TWILIO_AUTH_TOKEN='737054aff4d9989d50a792d0f0b8cbe3'
 
 
 TWILIO_ACCOUNT_SID='ACdf698e09be21a25593f78c94974882cf'
