@@ -1,1 +1,1 @@
-web: gunicorn hedge2.wsgi --preload --workers 1
+web: gunicorn project.wsgi --preload --workers 1
