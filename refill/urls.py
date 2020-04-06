@@ -10,6 +10,6 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     # path(r'register', include(PhoneView.as_view(), namespace='regis')),
-    url(r'^register/', PhoneView.as_view()),
-    url(r'^otp/',OTPView.as_view()),
+    url(r'^register/', PhoneView.as_view(),name="send_otp"),
+    url(r'^otp/',OTPView.as_view(),name="get_otp"),
 ]
